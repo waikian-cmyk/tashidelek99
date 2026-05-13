@@ -2462,11 +2462,11 @@
                             <div class="channel-value" id="waDisplayNumber">+60 12-345 6789</div>
                         </div>
                     </a>
-                    <a class="channel" id="emailContactLink" href="mailto:hello@dharmahouse.com">
+                    <a class="channel" id="emailContactLink" href="mailto:tashidelek99@gmail.com">
                         <span class="channel-icon">📧</span>
                         <div>
                             <div class="channel-label">Email</div>
-                            <div class="channel-value" id="emailDisplay">hello@dharmahouse.com</div>
+                            <div class="channel-value" id="emailDisplay">tashidelek99@gmail.com</div>
                         </div>
                     </a>
                     <div class="channel">
@@ -2571,7 +2571,7 @@
                         <a href="#" id="footerWaLink" target="_blank" rel="noopener">WhatsApp Us</a>
                     </li>
                     <li>
-                        <a href="mailto:hello@dharmahouse.com" id="footerEmailLink">Email</a>
+                        <a href="mailto:tashidelek99@gmail.com" id="footerEmailLink">Email</a>
                     </li>
                     <li>
                         <a href="#" id="footerInstagramLink" target="_blank" rel="noopener">Instagram</a>
@@ -3223,7 +3223,7 @@
             const cn = setting([`aboutParagraph${i + 1}`], [`aboutParagraph${i + 1}Cn`, `aboutText${i + 1}Cn`], DEFAULT_ABOUT.zh[i]);
             el.textContent = currentLang === 'zh' ? cn : en;
         });
-        setText('emailDisplay', setting(['emailAddress', 'email'], [], 'hello@dharmahouse.com'));
+        setText('emailDisplay', setting(['emailAddress', 'email'], [], 'tashidelek99@gmail.com'));
         setText('locationDisplay', setting(['location', 'address'], ['locationCn', 'addressCn'], 'Kuala Lumpur, Malaysia'));
         setText('responseTimeDisplay', setting(['orderHours', 'responseTime'], ['orderHoursCn', 'responseTimeCn'], currentLang === 'zh' ? '通常 2–4 小时内回复' : 'Usually within 2-4 hours'));
         for (let i = 1; i <= 5; i++) {
@@ -3502,7 +3502,7 @@
         });
         setText('waDisplayNumber', setting(['whatsappDisplay', 'whatsappNumber'], [], FALLBACK_WHATSAPP));
 
-        const email = setting(['emailAddress', 'email', 'contactEmail', 'businessEmail'], [], 'hello@dharmahouse.com');
+        const email = setting(['emailAddress', 'email', 'contactEmail', 'businessEmail'], [], 'tashidelek99@gmail.com');
         setText('emailDisplay', email);
         ['emailContactLink', 'footerEmailLink'].forEach(id => {
             const el = byId(id);
